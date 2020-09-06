@@ -1,0 +1,227 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    margin: 0;
+}
+
+#burguer {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-family: 'karla';
+    text-transform: uppercase;
+    color: grey;
+}
+
+.menu-item {
+    margin-left: 32px;
+    align-self: center;
+}
+
+.menu-item.last {
+    border: solid 2px hsl(256, 26%, 20%);
+    background-color: white;
+    font-family: 'karla';
+    text-transform: uppercase;
+    color: hsl(256, 26%, 20%);
+    padding: 8px 24px;
+}
+
+.description {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-column-gap: 5%;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    background-image: url('../images/bg-pattern-intro-right-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.description h2 {
+    grid-row-start: 1;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 3em;
+    margin-top: 124px;
+    margin-bottom: 0;
+}
+
+.description p {
+    grid-row-start: 2;
+    font-family: 'karla';
+}
+
+.description button {
+    grid-row-start: 3;
+    width: 30%;
+    margin-bottom: 96px;
+    margin-top: 16px;
+    border: solid 2px white;
+    background-color: hsl(256, 26%, 20%);
+    font-family: 'karla';
+    text-transform: uppercase;
+    color: white;
+    padding: 8px 24px;
+}
+
+.ppal-img-contain {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin: 0;
+    margin-top: -170px;
+    margin-bottom: -300px;
+    height: 451px;
+    width: 375px;
+    justify-self: center;
+}
+
+main {
+    padding-top: 128px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 23% 23% 24%;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    grid-column-gap: 3%;
+}
+
+h3 {
+    font-size: 48px;
+    grid-column: 1/4;
+}
+
+.item1 {
+    grid-column-start: 1;
+}
+
+.item2 {
+    grid-column-start: 2;
+}
+
+.item3 {
+    grid-column-start: 3;
+}
+
+main figure {
+    margin: 0;
+}
+
+main h4 {
+    font-size: 24px;
+    margin: .5em 0;
+}
+
+main p {
+    font-family: 'karla';
+    color: gray;
+}
+
+.we-work {
+    display: grid;
+    margin: 128px 10% 128px 10%;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    font-family: 'dm Serif Display';
+    font-size: 36px;
+    font-weight: 400;
+    background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.we-work p {
+    padding-left: 15%;
+}
+
+.we-work button {
+    height: 30%;
+    align-self: center;
+    border: solid 2px white;
+    background-color: hsl(256, 26%, 20%);
+    font-family: 'karla';
+    text-transform: uppercase;
+    color: white;
+    padding: 8px 24px;
+}
+
+.icons {
+    background-image: url('../images/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social figure {
+    margin: 0 0 0 16px;
+}
+
+footer {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17%;
+    background-color: hsl(0, 0%, 96%);
+    padding-top: 16px;
+    background-image: url('../images/bg-pattern-footer-desktop.svg');
+    background-position-y: -54px;
+    background-repeat: no-repeat;
+    justify-items: center;
+    font-family: 'karla';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+footer li {
+    padding-top: 8px;
+}
+
+.l1 {
+    grid-column-start: 1;
+    list-style: none;
+    padding: 0;
+    color: hsl(256, 26%, 20%);
+}
+
+.l2 {
+    grid-column-start: 2;
+    list-style: none;
+    padding: 0;
+    color: hsl(256, 26%, 20%);
+}
+
+.l3 {
+    grid-column-start: 3;
+    list-style: none;
+    padding: 0;
+    color: hsl(256, 26%, 20%);
+}
+
+.l4 {
+    grid-column-start: 4;
+    list-style: none;
+    padding: 0;
+    color: hsl(256, 26%, 20%);
+}
+
+.list-title {
+    padding-bottom: 20px;
+    color: gray;
+}
