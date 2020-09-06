@@ -24,6 +24,12 @@ body {
 .menu-item {
     margin-left: 32px;
     align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    color: hsl(256, 26%, 20%);
 }
 
 .menu-item.last {
@@ -32,7 +38,13 @@ body {
     font-family: 'karla';
     text-transform: uppercase;
     color: hsl(256, 26%, 20%);
+    font-weight: bold;
     padding: 8px 24px;
+}
+
+.menu-item.last:hover {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
 }
 
 .description {
@@ -72,6 +84,13 @@ body {
     text-transform: uppercase;
     color: white;
     padding: 8px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.description button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: white;
 }
 
 .ppal-img-contain {
@@ -155,6 +174,13 @@ main p {
     text-transform: uppercase;
     color: white;
     padding: 8px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.we-work button:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: white;
 }
 
 .icons {
@@ -172,6 +198,7 @@ main p {
 
 .social figure {
     margin: 0 0 0 16px;
+    cursor: pointer;
 }
 
 footer {
@@ -192,6 +219,11 @@ footer {
 
 footer li {
     padding-top: 8px;
+    cursor: pointer;
+}
+
+footer li:hover {
+    text-decoration: underline;
 }
 
 .l1 {
