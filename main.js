@@ -4,6 +4,6 @@ let stylesheet = document.getElementById('stylesheet')
 
 burguer.addEventListener('click', () => menu.classList.toggle('is-active'))
 
-if (window.innerWidth >426) {
+if (window.innerWidth > 612) {
     stylesheet.setAttribute('href', "css/style1.css")
 }
